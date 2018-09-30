@@ -1,0 +1,138 @@
+body {
+    text-align: center;
+     font-family: 'Coda', cursive;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('stock-vector.png');
+}
+header{
+	width: 510px;
+	height: 60px;
+	 border-radius: 10px;
+	 box-shadow: 6px 8px 10px 0 rgba(46, 61, 73, 0.5);
+	background-image: url('stock-vector.png');
+}
+.modal{
+    position: fixed; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-content{
+	width: 600px;
+	height: 180px;
+	background: white;
+	border-radius: 10px;
+	border: brown solid 3px;
+}
+.start{
+	background: brown;
+	cursor: pointer;
+	color: white;
+	width: 60px;
+	height: 30px;
+	border-radius: 3px;
+}
+.welcome{
+	color: brown;
+}
+.modal2{
+	position: fixed; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4);
+    display: none;
+}
+.play{
+	background: brown;
+	cursor: pointer;
+	color: white;
+	width: 60px;
+	height: 30px;
+	border-radius: 3px;
+}
+.modal2-content{
+    width: 700px;
+    height: 200px;
+    background: white;
+    border-radius: 10px;
+    border: brown solid 3px;
+    margin-top: 200px;
+    margin-left: 320px;
+}
+h5{
+    color: brown;
+    font-size: 20px;
+}
+.gameborad{
+   margin-top: 20px; 
+    background-image: url('stock-vector.png');
+    box-shadow: 6px 8px 10px 0 rgba(46, 61, 73, 0.5);
+    width: 600px;
+    height: 60px;
+    border-radius: 10px;
+}
+.level{
+    text-align: left;
+}
+.star{
+    color: gold;
+    font-size: 25px;
+    padding-left: 20px;
+}
+.heart{
+    color: red;
+    font-size: 25px;
+    padding-left: 20px;
+}
+.volume-up{
+    color: blue;
+    font-size: 25px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.volume-off{
+     color: blue;
+    font-size: 25px;
+    padding-left: 20px;
+    cursor: pointer;
+    display: none;
+}
+.modal3{
+    position: fixed; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4);
+    display: none;
+}
+.modal3-content{
+    width: 700px;
+    height: 200px;
+    background: white;
+    border-radius: 10px;
+    border: brown solid 3px;
+    margin-top: 200px;
+    margin-left: 320px;
+}
+.playAgain{
+   background: brown;
+    cursor: pointer;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+}
