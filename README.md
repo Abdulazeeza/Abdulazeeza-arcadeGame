@@ -1,6 +1,13 @@
 frontend-nanodegree-arcade-game
 ==============================
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+# Arcade Game Project
+   This project was given by Udacity to each student in order to practice what was taught in the classroom and to be submitted for review. 
 
+## How To Play Game
+  Press the start button to begin game, use the up, right, left and down key of your keyboard to move to the desired direction,
+  with the keys try and make it to the water at the top of the game to earn a point and an increament in life without making any             contacts with bugs, for every five point earned, the level increases, the highest level is level 6, after completing level 6 ,
+  a congratulation  message appears, initial life given to player is 3 life and after exhausting them a game modal displays. In the         process of playing the game some items might display on the game board which could be an heart ,a star or rock. When contact
+  is made with a heart the players life increases by 1 and when contact is made with a star nothing happen but it makes the player           look like a pro.
+  
 For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
