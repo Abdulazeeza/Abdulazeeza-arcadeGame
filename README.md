@@ -9,5 +9,4 @@ frontend-nanodegree-arcade-game
   with the keys try and make it to the water at the top of the game to earn a point and an increament in life without making any             contacts with bugs, for every five point earned, the level increases, the highest level is level 6, after completing level 6 ,
   a congratulation  message appears, initial life given to player is 3 life and after exhausting them a game modal displays. In the         process of playing the game some items might display on the game board which could be an heart ,a star or rock. When contact
   is made with a heart the players life increases by 1 and when contact is made with a star nothing happen but it makes the player           look like a pro.
-  
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+ 
