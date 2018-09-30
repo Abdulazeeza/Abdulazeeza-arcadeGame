@@ -255,7 +255,11 @@ class sound{   //constructor for sound
     }
   }
 } 
-function reset(){      // resets the various properties to their default and display on screen
+class Reset{      // resets the various properties to their default and display on screen
+   constructor(){
+
+   }
+   update(){
    player1.level = 0;
    player1.numberOfTimesInLevel = 0;
    player1.heart = 0;
@@ -265,6 +269,7 @@ function reset(){      // resets the various properties to their default and dis
    heart.innerHTML = 0;
    player1.moves = 1;
    gamepro.time = 0;
+  }
 }
 
     const gameover = new sound('sound/gameover.mp3');
@@ -292,6 +297,7 @@ function reset(){      // resets the various properties to their default and dis
     const enemy14 = new Enemy(10,2);
     const enemy15 = new Enemy(10,3);
 
+    const ResetGame = new Reset();
     const startgame = document.querySelector('.start');  // gets the class nameof the start button
     const modal1 = document.querySelector('#myModal');   // gets the id of the modal1 
     const modal2 = document.querySelector('#secondModal'); // gets the id of the modal2 
@@ -343,11 +349,11 @@ function reset(){      // resets the various properties to their default and dis
 
    playAgain.addEventListener('click', function(){   //listen to click event for play again
         modal3.style.display = 'none';     //display none for modal3
-        reset();                     //reset app.js
+        ResetGame.update();                     //reset app.js
      
    });
 
    play.addEventListener('click', function(){    //listen to click event for play 
         modal2.style.display = 'none';   //display none for modal2
-        reset();                       //reset app.js
+        ResetGame.update();                       //reset app.js
    });
