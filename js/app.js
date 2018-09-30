@@ -272,12 +272,12 @@ class Reset{      // resets the various properties to their default and display 
   }
 }
 
-    const gameover = new sound('sound/gameover.mp3');
-    const MoveSound = new sound('sound/move.mp3');   //create and inheriatamce for sound class
+    const gameover = new sound('sound/gameover.wav');
+    const MoveSound = new sound('sound/move.wav');   //create and inheriatamce for sound class
     const killSound = new sound('sound/dead.wav');     //create and inheriatamce for sound class
-    const Gamepoint = new sound('sound/gamepoint.mp3');   //create and inheriatamce for sound class
-    const congrat = new sound('sound/congratulation.mp3');    //create and inheriatamce for sound class
-    const eat = new sound('sound/eat.mp3');                    //create and inheriatamce for sound class
+    const Gamepoint = new sound('sound/gamepoint.wav');   //create and inheriatamce for sound class
+    const congrat = new sound('sound/congratulation.wav');    //create and inheriatamce for sound class
+    const eat = new sound('sound/eat.wav');                    //create and inheriatamce for sound class
     const player1 = new Player();   //create and inheriatamce for player class
     const gamepro = new PlayerGain();  //create and inheriatamce for playergain class
 
