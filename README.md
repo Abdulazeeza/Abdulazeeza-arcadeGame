@@ -16,3 +16,4 @@ frontend-nanodegree-arcade-game
   is made with a heart the players life increases by 1 and when contact is made with a star nothing happen but it makes the player           look like a pro.
  
  ## Contibution
+  This project was given by udacity to there student to work on,therefore pull requests (most likely) will not be merged into the          project.
