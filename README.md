@@ -1,4 +1,4 @@
-frontend-nanodegree-arcade-game
+Frontend-nanodegree-arcade-game
 ==============================
    This project was given by Udacity to each student in order to practice what was taught in the classroom and to be submitted for review. 
 
