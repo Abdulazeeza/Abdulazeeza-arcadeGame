@@ -1,7 +1,5 @@
 frontend-nanodegree-arcade-game
 ==============================
-
-# Arcade Game Project
    This project was given by Udacity to each student in order to practice what was taught in the classroom and to be submitted for review. 
 
 ## How to download
