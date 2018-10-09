@@ -4,8 +4,12 @@ frontend-nanodegree-arcade-game
 # Arcade Game Project
    This project was given by Udacity to each student in order to practice what was taught in the classroom and to be submitted for review. 
 
-## Requirment 
-  *Browser that runs ES6
+## How to download
+Click the clone or download button in the github repository to get the files, you can either download the compress file or open the folder on your desktop, if the compress file was downloaded then you will have to unzip the folder in order to load the the index.html
+## Resources
+  * HTML
+  * CSS
+  * Javascript
 
 ## load the link on your browser https://abdulazeeza.github.io/arcadeGame/
 
