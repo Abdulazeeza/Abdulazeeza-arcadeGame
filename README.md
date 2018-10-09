@@ -7,7 +7,7 @@ frontend-nanodegree-arcade-game
 ## Requirment 
   *Browser that runs ES6
 
-## load the link on your browser https://abdulazeeza.github.io/Abdulazeeza-arcadeGame/
+## load the link on your browser https://abdulazeeza.github.io/arcadeGame/
 
 ## How To Play Game
   Press the start button to begin game, use the up, right, left and down key of your keyboard to move to the desired direction,
